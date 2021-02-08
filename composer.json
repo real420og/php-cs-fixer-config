@@ -1,0 +1,20 @@
+{
+  "name": "real420og/php-cs-fixer-config",
+  "type": "library",
+  "description": "Custom config for PHP CS fixer",
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "bin-dir": "bin"
+  },
+  "require": {
+    "php": ">=7.3.0",
+    "friendsofphp/php-cs-fixer": "^2.18"
+  },
+  "autoload": {
+    "psr-4": {
+      "real420og\\CodeStyleFixer\\": "src/"
+    }
+  }
+}
