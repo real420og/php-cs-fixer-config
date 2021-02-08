@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-composer require --dev --prefer-dist real420og/php-cs-fixer "*"
+composer require --dev --prefer-dist real420og/php-cs-fixer-config "*"
 ```
 
 Copy rules:
