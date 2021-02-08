@@ -9,5 +9,5 @@ composer require --dev --prefer-dist real420og/php-cs-fixer-config "*"
 Copy rules:
 
 ```
-cp ./vendor/real420og/php-cs-fixer/.php_cs.dist ./
+cp ./vendor/real420og/php-cs-fixer-config/.php_cs.dist ./
 ```
