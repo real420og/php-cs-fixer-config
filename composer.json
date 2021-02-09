@@ -2,6 +2,9 @@
   "name": "real420og/php-cs-fixer-config",
   "type": "library",
   "description": "Custom config for PHP CS fixer",
+  "license": [
+    "MIT"
+  ],  
   "config": {
     "preferred-install": {
       "*": "dist"
