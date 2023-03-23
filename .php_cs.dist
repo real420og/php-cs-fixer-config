@@ -27,6 +27,9 @@ function getConfig(PhpCsFixer\Finder $finder): PhpCsFixer\ConfigInterface
             'align_multiline_comment' => true,
             'array_indentation' => true,
             'array_syntax' => ['syntax' => 'short'],
+            'blank_line_before_statement' => [
+                'statements' => ['break', 'continue', 'declare', 'return', 'throw', 'try', 'do', 'exit', 'for', 'foreach', 'if', 'switch', 'while'],
+            ],
             'comment_to_phpdoc' => true,
             'compact_nullable_typehint' => true,
             'date_time_immutable' => true,
